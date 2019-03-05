@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4859BFEC222F156B00385630 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4859BFEB222F156B00385630 /* GoalType.swift */; };
 		4859BFEE222F1C3F00385630 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4859BFED222F1C3F00385630 /* CreateGoalVC.swift */; };
+		4859BFF0222F1FB000385630 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4859BFEF222F1FB000385630 /* UIViewControllerExt.swift */; };
 		48A5C0C8222EF6DA009E52E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5C0C7222EF6DA009E52E4 /* AppDelegate.swift */; };
 		48A5C0CA222EF6DA009E52E4 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5C0C9222EF6DA009E52E4 /* GoalsVC.swift */; };
 		48A5C0CD222EF6DA009E52E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A5C0CB222EF6DA009E52E4 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		4859BFEB222F156B00385630 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		4859BFED222F1C3F00385630 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		4859BFEF222F1FB000385630 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		48A5C0C4222EF6DA009E52E4 /* GoalPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A5C0C7222EF6DA009E52E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48A5C0C9222EF6DA009E52E4 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		48A5C0DF222EF783009E52E4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4859BFEF222F1FB000385630 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				4859BFEC222F156B00385630 /* GoalType.swift in Sources */,
 				48A5C0CA222EF6DA009E52E4 /* GoalsVC.swift in Sources */,
 				48A5C0C8222EF6DA009E52E4 /* AppDelegate.swift in Sources */,
+				4859BFF0222F1FB000385630 /* UIViewControllerExt.swift in Sources */,
 				48A5C0D0222EF6DA009E52E4 /* GoalPost.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
