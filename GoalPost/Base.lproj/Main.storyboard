@@ -224,24 +224,24 @@
                                     <constraint firstAttribute="height" constant="80" id="tFH-Mp-kz4"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2R9-Tj-l1a">
-                                <rect key="frame" x="20" y="100" width="335" height="270"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2R9-Tj-l1a">
+                                <rect key="frame" x="20" y="100" width="335" height="260"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="What is your goal?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EUO-Pu-iS1">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="180.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="174.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select one:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hf-x7-cdm">
-                                        <rect key="frame" x="0.0" y="190.5" width="335" height="19.5"/>
+                                        <rect key="frame" x="0.0" y="182.5" width="335" height="19.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Zf8-Q6-ugo">
-                                        <rect key="frame" x="0.0" y="220" width="335" height="50"/>
+                                        <rect key="frame" x="0.0" y="210" width="335" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGj-bh-dZb">
                                                 <rect key="frame" x="0.0" y="0.0" width="157.5" height="50"/>
@@ -272,7 +272,7 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="270" id="eZO-hg-cBN"/>
+                                    <constraint firstAttribute="height" constant="260" id="eZO-hg-cBN"/>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPE-8r-E83">
@@ -296,11 +296,11 @@
                             <constraint firstItem="FPE-8r-E83" firstAttribute="leading" secondItem="Xio-6O-v5b" secondAttribute="leading" id="5uk-f5-IaU"/>
                             <constraint firstItem="Xio-6O-v5b" firstAttribute="trailing" secondItem="2R9-Tj-l1a" secondAttribute="trailing" constant="20" id="PWe-UJ-Ggp"/>
                             <constraint firstItem="2R9-Tj-l1a" firstAttribute="leading" secondItem="Xio-6O-v5b" secondAttribute="leading" constant="20" id="PYb-Dh-7vF"/>
-                            <constraint firstItem="Xio-6O-v5b" firstAttribute="bottom" secondItem="FPE-8r-E83" secondAttribute="bottom" id="QVV-U4-AIx"/>
                             <constraint firstItem="IBB-Gt-6Dz" firstAttribute="trailing" secondItem="Xio-6O-v5b" secondAttribute="trailing" id="TVg-w5-qGG"/>
                             <constraint firstItem="IBB-Gt-6Dz" firstAttribute="top" secondItem="KfG-cl-fmw" secondAttribute="top" id="UFC-d4-OYZ"/>
                             <constraint firstItem="2R9-Tj-l1a" firstAttribute="top" secondItem="IBB-Gt-6Dz" secondAttribute="bottom" constant="20" id="esJ-6y-vTj"/>
                             <constraint firstItem="Xio-6O-v5b" firstAttribute="trailing" secondItem="FPE-8r-E83" secondAttribute="trailing" id="khw-nk-7sy"/>
+                            <constraint firstAttribute="bottom" secondItem="FPE-8r-E83" secondAttribute="bottom" id="zyK-p6-a6O"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xio-6O-v5b"/>
                     </view>
