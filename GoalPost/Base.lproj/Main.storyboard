@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4xT-dV-Rnc">
-                                        <rect key="frame" x="138" y="47" width="99" height="25"/>
+                                        <rect key="frame" x="138" y="39.5" width="99" height="25"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOT-xz-LCC">
                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="25"/>
@@ -39,7 +39,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7I4-p7-4ez">
-                                        <rect key="frame" x="325" y="43.5" width="35" height="32"/>
+                                        <rect key="frame" x="325" y="36" width="35" height="32"/>
                                         <state key="normal" image="addGoal"/>
                                         <connections>
                                             <action selector="addGoalButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZiU-Qn-KCO"/>
@@ -48,9 +48,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.42745098039215684" green="0.73725490196078436" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="4xT-dV-Rnc" secondAttribute="bottom" constant="8" id="4hJ-Cg-fFZ"/>
                                     <constraint firstItem="7I4-p7-4ez" firstAttribute="centerY" secondItem="1Uy-Zk-dRu" secondAttribute="centerY" id="IjI-4V-X8d"/>
                                     <constraint firstAttribute="trailing" secondItem="7I4-p7-4ez" secondAttribute="trailing" constant="15" id="eu6-Mi-o48"/>
+                                    <constraint firstItem="4xT-dV-Rnc" firstAttribute="centerY" secondItem="NGp-dM-aiv" secondAttribute="centerY" constant="12" id="gDW-1K-kaG"/>
                                     <constraint firstItem="4xT-dV-Rnc" firstAttribute="centerX" secondItem="NGp-dM-aiv" secondAttribute="centerX" id="rW2-6C-XRt"/>
                                     <constraint firstAttribute="height" constant="80" id="yNx-pI-0ne"/>
                                 </constraints>
